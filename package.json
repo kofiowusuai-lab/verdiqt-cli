@@ -1,0 +1,15 @@
+{
+  "name": "verdiqt-cli",
+  "version": "0.1.0",
+  "description": "Verdiqt command-line client for pre-flight ad creative scans against the Verdiqt policy index.",
+  "bin": {
+    "verdiqt": "./bin/verdiqt"
+  },
+  "scripts": {
+    "smoke": "node ./bin/verdiqt --help"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.csv
+*.json
+!package.json
+!examples/*.json
+verdicts/
+creatives/
+.verdiqt.json
+.DS_Store
