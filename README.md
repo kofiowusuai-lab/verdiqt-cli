@@ -32,7 +32,7 @@ Optional custom backend:
 ```bash
 verdiqt login \
   --token vrdq_REPLACE_WITH_USER_TOKEN \
-  --base-url https://verdiqt-app.vercel.app
+  --base-url https://verdiqt-app-beta.vercel.app
 ```
 
 The CLI stores credentials locally in:
@@ -47,7 +47,7 @@ You can also avoid local config and use environment variables:
 
 ```bash
 export VERDIQT_TOKEN=vrdq_REPLACE_WITH_USER_TOKEN
-export VERDIQT_BASE_URL=https://verdiqt-app.vercel.app
+export VERDIQT_BASE_URL=https://verdiqt-app-beta.vercel.app
 ```
 
 ## Commands

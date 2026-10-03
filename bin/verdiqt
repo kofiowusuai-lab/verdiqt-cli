@@ -3054,7 +3054,7 @@ var init_config = __esm({
     import_node_path = require("path");
     CONFIG_DIR = (0, import_node_path.join)((0, import_node_os.homedir)(), ".config", "verdiqt");
     CONFIG_PATH = (0, import_node_path.join)(CONFIG_DIR, "config.json");
-    DEFAULT_BASE_URL = "https://verdiqt-app.vercel.app";
+    DEFAULT_BASE_URL = "https://verdiqt-app-beta.vercel.app";
     readConfig = () => {
       if (!(0, import_node_fs.existsSync)(CONFIG_PATH)) return {};
       try {
@@ -4514,7 +4514,7 @@ Step 9 \u2014 Render the verdict in plain language:
    - Each non-pass policyCheck: policyId in plain English, why it triggered, cited policy URL.
    - suggestedRewrite (if any): the proposed headline / body / callouts.
    - Mention that the full workbench report has already been opened in the user's browser
-     (https://verdiqt-app.vercel.app/scan/<id>) \u2014 \`--open\` handled the launch.
+     (https://verdiqt-app-beta.vercel.app/scan/<id>) \u2014 \`--open\` handled the launch.
 
 Step 10 \u2014 Loop
   question: "Run another scan?"
